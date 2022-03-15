@@ -7,9 +7,15 @@ edition = "2018"
 [dependencies]
 cfg-if = "0.1.7"
 nb = "0.1.2"
-ufmt = "0.1.0"
+#ufmt = "0.1.0"
 paste = "1.0.0"
 avr-device = "0.3"
+
+[dependencies.ufmt]
+#version="0.1.0"
+#path = "../../ufmt"
+git="https://github.com/mrk-its/ufmt.git"
+branch="ptr_width_16_fix"
 
 [dependencies.embedded-hal]
 version = "0.2.3"
